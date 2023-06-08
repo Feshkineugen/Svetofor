@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="60dp"
+        android:text="Светофор"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/oval_button"
+        android:onClick="buttonRed_Click"
+        android:text="Красный"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonYellow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/oval_button1"
+        android:onClick="buttonYellow_Click"
+        android:text="Желтый"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/oval_button2"
+        android:onClick="buttonGreen_Click"
+        android:text="Зеленый"
+        android:textColor="@color/white" />
+
+</LinearLayout>
